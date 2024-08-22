@@ -54,3 +54,10 @@ body {
     margin-bottom: 10px;
     border-radius: 10px;
 }
+
+h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
