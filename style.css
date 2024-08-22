@@ -22,3 +22,19 @@ body {
     margin: 0 5px;
     border-radius: 4px;
 }
+
+.pagination a:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.pagination .active {
+    background-color: #007BFF;
+    color: white;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
