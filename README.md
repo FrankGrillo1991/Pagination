@@ -1,0 +1,1 @@
+Pagination developed with HTML, CSS & JaavScript
