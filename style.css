@@ -74,3 +74,15 @@ p {
     margin-top: 20px;
     font-size: 16px;
 }
+
+@media screen and (max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}
