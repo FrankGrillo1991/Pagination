@@ -79,10 +79,20 @@ p {
     .card-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    #page-numbers {
+        margin-top: 20px;
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .card-container {
         grid-template-columns: 1fr;
+    }
+
+    #page-numbers {
+        margin-top: 20px;
+        font-size: 16px;
     }
 }
