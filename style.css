@@ -37,6 +37,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
+    min-height: 340px;
 }
 
 .card {
