@@ -1,5 +1,11 @@
+@font-face {
+  font-family: 'CustomFont';
+  src: url('font.woff2') format('woff2');
+}
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'CustomFont', Arial, sans-serif;
     margin: 3rem;
 }
 
