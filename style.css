@@ -110,3 +110,28 @@ p {
         font-size: 15px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+
+    #page-numbers {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    #pagination {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        text-align: center;
+    }
+    #pagination a {
+        flex: 0 0 auto;
+        margin: 3px 2px;
+        padding: 8px 10px;
+        font-size: 15px;
+    }
+}
