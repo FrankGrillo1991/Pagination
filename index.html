@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="style.min.css">
     <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
     <meta name="color-scheme" content="light dark">
+    <link rel="preload" href="font.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="stylesheet" href="print.css" media="print">
+
 </head>
 
 <body>
@@ -73,16 +76,16 @@
     </div>
 </div>
 
-<div class="pagination" id="pagination">
-    <a href="#" id="prev">Previous</a>
-    <a href="#" class="page-link" data-page="1">1</a>
-    <a href="#" class="page-link" data-page="2">2</a>
-    <a href="#" class="page-link" data-page="3">3</a>
-    <a href="#" class="page-link" data-page="4">4</a>
-    <a href="#" id="next">Next</a>
-    <p id="page-numbers"> </p>
-</div>
+<nav class="pagination" id="pagination" aria-label="Pagination Navigation">
+    <a href="#" id="prev" aria-label="Previous Page">Previous</a>
+    <a href="#" class="page-link" data-page="1" aria-label="Go to page 1">1</a>
+    <a href="#" class="page-link" data-page="2" aria-label="Go to page 2">2</a>
+    <a href="#" class="page-link" data-page="3" aria-label="Go to page 3">3</a>
+    <a href="#" class="page-link" data-page="4" aria-label="Go to page 4">4</a>
+    <a href="#" id="next" aria-label="Next Page">Next</a>
+    <p id="page-numbers" aria-live="polite"> </p>
+</nav>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
